@@ -2,7 +2,7 @@ body {
   background-color: #000000;
   /*background-image: url(./Rotating_earth.gif);*/ /*https://en.wikipedia.org/wiki/GIF#/media/File:Rotating_earth_(large).gif CC BY-SA 3.0*/
   /*background-image: url(/Desktop/Master/2.Semester/XP_Lab/first-homework/firstWebsite_XP_Lab2019-master/website/images/Rotating_earth.gif);*/
-  background-image: url(/images/Rotating_earth.gif);
+  background-image: url(./../images/tor.jpg);
   background-repeat: no-repeat;
   /* background-position: bottom; */
   background-attachment: fixed;
@@ -13,7 +13,7 @@ body {
 
 }
 h1 {
-  color: #ffff00;
+  color: #ffff01;
   text-align: center;
   padding: 50px 50px 50px 50px;
 }
@@ -29,12 +29,21 @@ h1 {
 
 #question {
  display: center;
- margin: 0 auto;
- height: auto;
- width: auto;
- max-width: 50px;
+ /*margin: 0 auto;*/
  max-height: 50px;
 
+}
+.div__center{
+  margin: 0 auto;
+  text-align: center;
+}
+#enter__button{
+  margin: 20px;
+
+}
+
+p{
+color: white;
 
 }
 

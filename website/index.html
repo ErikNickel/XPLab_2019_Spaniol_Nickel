@@ -1,34 +1,30 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <head>
   <link href="styles/styles.css" rel="stylesheet" type="text/css">
   <meta charset="utf-8">
   <style>
-    body {
-      background-image: url(./Rotating_earth.gif);
-    }
+
   </style>
   <title>XLab_Web</title>
 </head>
 
-<button>Change user</button>
 <script src="scripts/main.js"></script>
 
 <body>
+
+<div class="div__center">
+
   <h1>Pedo Mellon a Minno.</h1>
-  <p id="para1"> Currently under construnction! </p>
-  <div id="div1" class="relative">
-    <form class="" action="index.html" method="">
-      Hello!<br>
-  <input type="text" name="Hello!"><br>
+
+    <form id="demo" onsubmit="greet(); return false;">
+      <p>Hello!<br>
+      Please enter the codeword here: </p>
+      <input id="name" type="text" placeholder="enter codeword"><br>
+      <input id="enter__button" type="submit" value="try to enter"/>
     </form>
+    </div>
 
-  </div>
-
-  <div id="question" class="relative">
-    <img src="./images/question.jpg" alt="My test question">
-  </div>
-
-  <p id="para2"></p>
 </body>
 </html>
