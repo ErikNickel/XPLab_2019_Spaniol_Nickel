@@ -26,6 +26,18 @@ h1 {
   text-align: center;
   color: #00aa00;
 }
+
+#question {
+ display: center;
+ margin: 0 auto;
+ height: auto;
+ width: auto;
+ max-width: 50px;
+ max-height: 50px;
+
+
+}
+
 #para2 {
 
 }
