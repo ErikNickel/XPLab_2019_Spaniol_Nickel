@@ -1,0 +1,31 @@
+body {
+  background-color: #000000;
+  /*background-image: url(./Rotating_earth.gif);*/ /*https://en.wikipedia.org/wiki/GIF#/media/File:Rotating_earth_(large).gif CC BY-SA 3.0*/
+  /*background-image: url(/Desktop/Master/2.Semester/XP_Lab/first-homework/firstWebsite_XP_Lab2019-master/website/images/Rotating_earth.gif);*/
+  background-image: url(/images/Rotating_earth.gif);
+  background-repeat: no-repeat;
+  /* background-position: bottom; */
+  background-attachment: fixed;
+  background-size: cover;
+
+  font-size: 2.5em; /* 40px/16=2.5em */
+  font-family: "Courier New",monospace;
+
+}
+h1 {
+  color: #ffff00;
+  text-align: center;
+  padding: 50px 50px 50px 50px;
+}
+#para1 {
+  color: #ff0000;
+  text-align: center;
+  padding: 50px 50px 50px 50px;
+}
+#div1 {
+  text-align: center;
+  color: #00aa00;
+}
+#para2 {
+
+}
